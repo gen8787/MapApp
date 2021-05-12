@@ -1,0 +1,60 @@
+/* MAPBOX */
+.mapContainer {
+    height: 90vh;
+}
+
+.sidebarStyle1 {
+    display: inline-block;
+    position: absolute;
+    top: 76px;
+    left: 40px;
+    margin: 12px;
+    background-color: #404040;
+    color: #ffffff;
+    z-index: 1 !important;
+    padding: 6px;
+    font-weight: bold;
+    border-radius: 3px;
+    opacity: .75
+}
+
+.sidebarStyle2 {
+    display: inline-block;
+    position: absolute;
+    top: 116px;
+    left: 40px;
+    margin: 12px;
+    background-color: #404040;
+    color: #ffffff;
+    z-index: 1 !important;
+    padding: 6px;
+    font-weight: bold;
+    border-radius: 3px;
+    opacity: .75
+}
+
+.distance-container {
+    position: absolute;
+    top: 168px;
+    left: 52px;
+    z-index: 1;
+}
+
+.distance-container>* {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    font-size: 11px;
+    line-height: 18px;
+    display: block;
+    margin: 0;
+    padding: 5px 10px;
+    border-radius: 3px;
+}
+
+#mydiv {
+    position: absolute;
+    z-index: 9;
+    background-color: #f1f1f1;
+    border: 1px solid #d3d3d3;
+    text-align: center;
+}
